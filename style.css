@@ -3,13 +3,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'Reey';
+	src: url(../fonts/Reey-Regular.otf);
+}
+
+
 body {
     color: white;
 }
 
 header {
     height: 100vh;
-    padding: 35px;
+    padding: 35px 0;
     background-image: url(img/header_background.png);
 }
 
@@ -18,6 +24,8 @@ header {
 .navbar {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    padding: 0 35px;
 }
 
 .navbar ul {
@@ -35,19 +43,50 @@ header {
     margin-left: 45px;
 }
 
+.search {
+    padding: 8px 0;
+    border-radius: 20px;
+    width: 120px;
+}
+
 /* Header */
 
 .banner {
     display: flex;
-    align-items: center;
-    padding: 120px 0;
+    align-items: flex-start;
+    padding: 120px 0 120px 65px;
 }
 
 .header_left {
     width: 50vw;
 }
 
+.header_left h1 {
+    font-family: 'Reey';
+    font-size: 80px;
+    margin-bottom: 80px;
+}
+
 .header_right {
+    position: relative;
     width: 50vw;
-    text-align: center;
+    text-align: right;
+}
+
+.plate {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+.pot {
+    position: absolute;
+    right: 380px;
+    top: 440px;
+}
+
+.basile {
+    position: absolute;
+    right: 0;
+    top: 395px;
 }
