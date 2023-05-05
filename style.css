@@ -1,6 +1,7 @@
 * { padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'open sans';
 }
 
 @font-face {
@@ -36,6 +37,7 @@ header {
 .navbar li {
     list-style-type: none;
     margin-left: 45px;
+    letter-spacing: 1px;
 }
 
 .button {
@@ -61,10 +63,36 @@ header {
     width: 50vw;
 }
 
+.header_left img {
+    margin-bottom: 45px;
+}
+
 .header_left h1 {
     font-family: 'Reey';
     font-size: 80px;
     margin-bottom: 80px;
+}
+
+.header_left a {
+    background-color: white;
+    padding: 5px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+}
+
+.lorem {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .header_right {
