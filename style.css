@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    height: 100vh;
+    /*height: 100vh;*/
     padding: 35px 0;
     background-image: url(img/header_background.png);
 }
@@ -214,4 +214,111 @@ header {
     text-decoration: none;
     padding: 10px 35px;
     border-radius: 12px;
+}
+
+
+/* Section Cuisine */
+
+.read {
+    background-color: white;
+    color: black;
+    padding: 50px 50px 0 50px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.dos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dos h2 {
+    margin-bottom: 25px;
+    font-size: 48px;
+}
+
+.dos p {
+    padding-bottom: 35px;
+    font-size: 19px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.un {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.un h2 {
+    margin-bottom: 25px;
+    font-size: 48px;
+}
+
+.un p {
+    padding-bottom: 35px;
+    font-size: 19px;
+}
+
+.button_cuisine {
+    text-align: center;
+}
+
+.button_cuisine a {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+
+
+/* Section Pizza */
+
+.pizza {
+    background-image: url(img/header_background.png);
+    padding-top: 60px;
+    margin-bottom: 200px;
+    height: 850px;
+    text-align: center;
+    position: relative;
+}
+
+.pizza h2 {
+    font-family: 'Reey';
+    font-size: 48px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.pizza p {
+    margin-bottom: 35px;
+}
+
+.pizz img {
+    position: absolute;
+    right: 80px;
+}
+
+.part img {
+    position: absolute;
+    top: 700px;
+    right: 600px;
+}
+
+.basile_1 img {
+    position: absolute;
+    right: 0;
+    bottom: 178px;
 }
