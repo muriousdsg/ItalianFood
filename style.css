@@ -30,15 +30,17 @@ header {
     padding: 0 35px;
 }
 
-.navbar ul {
+.navbar a {
     display: flex;
     justify-content: flex-end;
-}
-
-.navbar li {
-    list-style-type: none;
     margin-left: 45px;
     letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightgray;
 }
 
 .button {
@@ -321,4 +323,48 @@ header {
     position: absolute;
     right: 0;
     bottom: 178px;
+}
+
+
+/* Section Avis */
+
+.avis {
+    color: black;
+    padding: 0 120px 120px 120px;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+}
+
+.notes h2 {
+    font-family: 'Reey';
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.u {
+    display: flex;
+    flex-direction: column;
+}
+
+.d {
+    display: flex;
+    flex-direction: column;
+}
+
+.t {
+    display: flex;
+    flex-direction: column;
+}
+
+.para {
+    margin: 200px 200px 0 200px;
+    text-align: center;
+}
+
+.para p {
+    margin-top: 35px;
 }
