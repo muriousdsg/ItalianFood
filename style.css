@@ -390,4 +390,47 @@ header {
 
 .footer {
     height: 600px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 220px 50px 120px 50px;
+}
+
+.section_footer {
+    gap: 150px;
+}
+
+.section_footer h2 {
+    padding-bottom: 10px;
+}
+
+.section_footer p {
+    font-size: 19px;
+    padding-top: 5px;
+}
+
+.section_footer ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_footer li {
+    list-style-type: none;
+}
+
+.left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.right {
+   display: flex;
+   grid-column: 3 / 5;
+   grid-row: 1 / 2;
+}
+
+.section_footer img {
+    background-color: black;
+    margin-right: 15px;
+    margin-top: 25px;
 }
