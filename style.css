@@ -368,3 +368,26 @@ header {
 .para p {
     margin-top: 35px;
 }
+
+
+/* Section Formulaire */
+
+.formulaire {
+    background-image: url(img/header_background.png);
+    height: 800px;
+    text-align: center;
+    position: relative;
+}
+
+.basile_form img {
+    position: absolute;
+    right: 0;
+    margin-top: -50px;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 600px;
+}
