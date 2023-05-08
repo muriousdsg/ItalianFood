@@ -9,13 +9,11 @@
 	src: url(../fonts/Reey-Regular.otf);
 }
 
-
 body {
     color: white;
 }
 
-header {
-    /*height: 100vh;*/
+.header {
     padding: 35px 0;
     background-image: url(img/header_background.png);
 }
@@ -123,6 +121,46 @@ header {
     top: 395px;
 }
 
+@media screen and (max-width: 1050px) {
+    .header {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .header_left {
+        text-align: center;
+        width: 100%;
+    }
+
+    .header_right {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding: 0 15px;
+        margin: 0 auto;
+        font-size: 8px;
+    }
+
+    .navbar a {
+        margin: 25px 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .banner {
+        padding: 60px 0;
+    }
+}
+    
 
 /* Section Menu */
 
@@ -181,6 +219,31 @@ header {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 1050px) {
+    .plates_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title_lorem h2 {
+        font-size: 32px;
+    }
+
+    .title_lorem p {
+        margin: 0 auto;
+        padding: 10px 15px;
+    }
+
+    .plates h3 {
+        text-align: center;
+    }
+
+    .plates p {
+        text-align: center;
+    }
+}
 
 /* Section Info */
 
@@ -218,6 +281,19 @@ header {
     border-radius: 12px;
 }
 
+@media screen and (max-width: 900px) {
+    .paragraph {
+        padding: 30px 50px 0 50px;
+    }
+
+    .paragraph h2 {
+        font-size: 32px;
+    }
+    
+    .paragraph p {
+        column-count: 1;
+    }
+}
 
 /* Section Cuisine */
 
@@ -285,6 +361,18 @@ header {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 1100px) {
+    .uno {
+        height: 150px;
+        width: auto;
+    }
+
+    .dos {
+        height: 150px;
+        width: auto;
+    }
+}
+
 
 /* Section Pizza */
 
@@ -323,6 +411,33 @@ header {
     position: absolute;
     right: 0;
     bottom: 178px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pizza {
+        padding: 30px 50px 0 50px;
+        margin: 0;
+        height: 620px;
+        position: relative;
+    }
+    
+    .pizza h2 {
+        font-size: 32px;
+    }
+    
+    .pizz img {
+        position: static;
+        width: 300px;
+        height: 300px;
+    }
+
+    .part img {
+       display: none;
+    }
+
+    .basile_1 img {
+        display: none;
+    }
 }
 
 
